@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #050505;
+  --color-brand-sidebar: rgba(10, 10, 10, 0.85);
+  --color-brand-glass: rgba(255, 255, 255, 0.03);
+  --color-brand-glass-border: rgba(255, 255, 255, 0.08);
+  --color-brand-accent: #f59e0b;
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+@layer utilities {
+  .glow-accent {
+    box-shadow: 0 0 15px var(--color-brand-accent);
+  }
+  .glow-dot {
+    box-shadow: 0 0 8px #4ade80;
+  }
+  .stage-shadow {
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.95);
+  }
+}
+
+/* Base scrollbar adjustments for premium coding terminal look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+

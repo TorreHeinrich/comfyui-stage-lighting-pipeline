@@ -1,0 +1,6 @@
+{
+  "name": "Stage Light Control",
+  "description": "An interactive portfolio application that gives you full directional and visual control over portrait light, utilizing both real-time Canvas 2D blend shaders and a server-side Gemini AI image relighting engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
